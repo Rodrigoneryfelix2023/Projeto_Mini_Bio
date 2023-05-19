@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+
+}
+
+:root {
+    --bgcolor: #000000;
+    --accentcolor: #ffffff;
+
+}
+
+body {
+
+    background-color: var(--bgcolor);
+}
+
+.mini-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 40px auto;
+    gap: 20px;
+
+}
+
+.mini-bio img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+
+.mini-bio h1 {
+
+    font-size: 2.5rem;
+
+}
+
+.mini-bio a {
+
+    background-color: var(--accentcolor);
+    color: var(--bgcolor);
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: solid 2px red;
+    border-radius: 25px;
+}
+
+.mini-bio a:hover {
+
+    background-color: var(--bgcolor);
+    color: var(--accentcolor);
+}
+
+@media (min-width: 1024px) {
+    .mini-bio {
+
+        width: 40vw;
+    }
+
+}
